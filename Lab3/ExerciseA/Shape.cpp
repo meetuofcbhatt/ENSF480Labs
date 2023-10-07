@@ -15,7 +15,7 @@ Shape::Shape(double x, double y, const char* name):origin(double (x), double (y)
     strcpy(shapeName, name);
 }
 
-const Point& Shape::getOrigin() const {
+const Point Shape::getOrigin() const {
     return origin;
 }
 

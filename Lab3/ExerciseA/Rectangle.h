@@ -11,11 +11,11 @@
 
 #include "Square.h"
 
-class Rectangle: public Square{
+class Rectangle: public Square {
 public:
     Rectangle(double x, double y, double side_a, double side_b, const char *name);
     //constructor that initializes its data members with given arguments
-    Rectangle(double x, double y, const char *name, const Rectangle &source); //copy constructor
+    Rectangle(const Rectangle &source); //copy constructor
     Rectangle& operator =(const Rectangle& S); //assignment operator
     double area(); //calculates area of shape
     double perimeter(); //calcualtes perimeter
@@ -25,7 +25,7 @@ public:
     void set_side_b(double side); //sets sideB
     void display(); //displays the name, x and y coordinates of origin, side lengths, perimeter, and area, in a format
 private:
-    double side_a;
+    double side_a{};
     double side_b;
 };
 

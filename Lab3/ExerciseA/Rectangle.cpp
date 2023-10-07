@@ -12,21 +12,23 @@
 #include <string.h>
 using namespace std;
 
-Rectangle::Rectangle(double x, double y, double side_a, double side_b, const char *name) : Shape(x, y, name), Square(x, y, side_a, name), side_b(side_b) {}
+Rectangle::Rectangle(double x, double y, double side_a, double side_b, const char *name) : Shape(x, y, name), Square(x, y, side_a, name), side_a(side_a), side_b(side_b) {}
 
 
-Rectangle::Rectangle(double x, double y, const char *name, const Rectangle &source) : Shape(x, y, name),
-                                                                                      Square(source.getOrigin().getx(),
+Rectangle::Rectangle(const Rectangle &source) : Shape(source.getOrigin().getx(), source.getOrigin().gety(), source.getName()), Square(source.getOrigin().getx(),
                                                                                              source.getOrigin().gety(),
                                                                                              source.getSideA(),
-                                                                                             source.getName()),
-                                                                                      side_b(getSideB()) {}
+                                                                                             source.getName()), side_a(source.getSideA()), side_b(source.getSideB()){}
 Rectangle& Rectangle::operator =(const Rectangle &S) {
     if(this == &S)
         return *this;
     delete[] this->shapeName;
     this->shapeName = new char[strlen(S.getName())+1];
     strcpy(this->shapeName, S.getName());
+    this->side_a = S.getSideA();
+    this->side_b = S.getSideB();
+    this->origin.setx(S.getOrigin().getx());
+    this->origin.sety(S.getOrigin().gety());
     return *this;
 }
 
@@ -55,7 +57,7 @@ void Rectangle::set_side_b(double side) {
 }
 
 void Rectangle::display(){
-    cout << "Square Name: " << this->getName() << endl;
+    cout << "Rectangle Name: " << this->getName() << endl;
     cout << "X-Coordinate: " << this->getOrigin().getx() << endl;
     cout << "Y-Coordinate: " << this->getOrigin().gety() << endl;
     cout << "Side a: " << this->getSideA() << endl;
