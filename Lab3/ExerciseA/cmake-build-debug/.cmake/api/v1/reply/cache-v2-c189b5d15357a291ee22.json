@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/tomaskmet/Desktop/ThirdYear/ENSF480/Lab3/ExerciseA/cmake-build-debug"
+			"value" : "/Users/meetrbhatt/Desktop/UofC/Third Year/Fall/ENSF 480/ENSF480Labs/Lab3/ExerciseA/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/tomaskmet/Desktop/ThirdYear/ENSF480/Lab3/ExerciseA/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/meetrbhatt/Desktop/UofC/Third Year/Fall/ENSF 480/ENSF480Labs/Lab3/ExerciseA/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/tomaskmet/Desktop/ThirdYear/ENSF480/Lab3/ExerciseA"
+			"value" : "/Users/meetrbhatt/Desktop/UofC/Third Year/Fall/ENSF 480/ENSF480Labs/Lab3/ExerciseA"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -771,7 +771,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk"
+			"value" : "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/tomaskmet/Desktop/ThirdYear/ENSF480/Lab3/ExerciseA/cmake-build-debug"
+			"value" : "/Users/meetrbhatt/Desktop/UofC/Third Year/Fall/ENSF 480/ENSF480Labs/Lab3/ExerciseA/cmake-build-debug"
 		},
 		{
 			"name" : "ExerciseA_IS_TOP_LEVEL",
@@ -1135,7 +1135,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/tomaskmet/Desktop/ThirdYear/ENSF480/Lab3/ExerciseA"
+			"value" : "/Users/meetrbhatt/Desktop/UofC/Third Year/Fall/ENSF 480/ENSF480Labs/Lab3/ExerciseA"
 		}
 	],
 	"kind" : "cache",

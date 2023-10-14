@@ -1,9 +1,9 @@
 /*
 * File Name: Shape.h
-* Assignment: Lab 1 Exercise B
+* Assignment: Lab 3 Exercise A
 * Lab Section: B02
 * Completed by: Tomas Kmet and Meet Bhett
-* Submission Date: Oct 2, 2023
+* Submission Date: Oct 11, 2023
 */
 #ifndef EXERCISEA_SHAPE_H
 #define EXERCISEA_SHAPE_H

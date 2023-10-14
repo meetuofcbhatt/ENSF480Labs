@@ -15,4 +15,8 @@ add_executable(ExerciseA main.cpp
         Rectangle.cpp
         Rectangle.h
         GraphicsWorld.cpp
-        GraphicsWorld.h)
+        GraphicsWorld.h
+        Circle.h
+        Circle.cpp
+        CurveCut.h
+        CurveCut.cpp)

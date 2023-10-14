@@ -1,4 +1,4 @@
-# Install script for directory: /Users/tomaskmet/Desktop/ThirdYear/ENSF480/Lab3/ExerciseA
+# Install script for directory: /Users/meetrbhatt/Desktop/UofC/Third Year/Fall/ENSF 480/ENSF480Labs/Lab3/ExerciseA
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/tomaskmet/Desktop/ThirdYear/ENSF480/Lab3/ExerciseA/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/meetrbhatt/Desktop/UofC/Third Year/Fall/ENSF 480/ENSF480Labs/Lab3/ExerciseA/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
